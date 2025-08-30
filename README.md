@@ -2,7 +2,7 @@
 
 Do you enjoy playing with the frisbee but are frequently left longing for something more? <br>
 
-![peakunlimited2](https://glarmer.xyz/images/head.png)
+![discplacement](https://glarmer.xyz/images/discplacement/head.gif)
 
 Introducing, "Discplacement", a mod for PEAK which turns the frisbee into a teleportation device, only the host needs to have this mod! 
 
@@ -57,9 +57,5 @@ Any other site is not run by me and may contain malware. Please make sure to dow
 - If you have issues with auto install, try manually installing with the version of BepInEx that I link above.
 - Please report issues to [the mods github](https://github.com/glarmer/PEAK-Unlimited/), alternatively I will periodically check the [steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3501916945&tscn=1750268995)
 
-## Media
-
-![discplacement](https://glarmer.xyz/images/discplacement/1.png)
-
-![discplacement2](https://glarmer.xyz/images/discplacement/2.png)
+![discplacement1](https://glarmer.xyz/images/discplacement/discplacement1.gif)
 
