@@ -14,12 +14,15 @@ public class DiscplacementComponent : MonoBehaviour
     public static float CooldownDuration { get; set; } = 8f;
     private static Dictionary<Guid, float> _cooldowns = new Dictionary<Guid, float>();
     public static int _totalUses { get; set; } = 100 ;
+    private int totalUsesLastFrame;
     public static ParticleSystem fireParticles { get; set; }
     private Item item;
     ItemParticles particles;
+    private bool wasOnCappedMode;
 
     public void Awake()
     {
+        wasOnCappedMode = Plugin.ConfigurationHandler.IsUsesCapped;
         GameObject lanternPrefab = Resources.Load<GameObject>("0_Items/Lantern");
         GameObject lanternInstance = Instantiate(
             lanternPrefab,
@@ -101,20 +104,39 @@ public class DiscplacementComponent : MonoBehaviour
         {
             _totalUses = Plugin.ConfigurationHandler.Uses;
         }
-
+        totalUsesLastFrame = _totalUses;
         this.item = item;
         this.item.totalUses = _totalUses;
         CooldownDuration = Plugin.ConfigurationHandler.Cooldown;
     }
-
-    public void UpdateUses()
-    {
-        gameObject.GetComponent<Item>().totalUses = _totalUses;
-    }
+    
     public void Update()
     {
+        item.totalUses = _totalUses;
+        OptionableIntItemData data = item.GetData<OptionableIntItemData>(DataEntryKey.ItemUses);
+        bool isUsesCapped = Plugin.ConfigurationHandler.IsUsesCapped;
+        if (totalUsesLastFrame != _totalUses && isUsesCapped)
+        {
+            Plugin.Logger.LogInfo("1 now: " + _totalUses + " prev: " + totalUsesLastFrame);
+            data.Value = Math.Max(0,data.Value - totalUsesLastFrame + _totalUses);
+            item.SetUseRemainingPercentage(data.Value / (float) item.totalUses);
+            Plugin.Logger.LogInfo("Adding the extra use. Total uses: " + _totalUses + " Actual uses: " + data.Value);
+            totalUsesLastFrame = _totalUses;
+        }
+        
+        
         float percentageStored = item.GetData<FloatItemData>(DataEntryKey.UseRemainingPercentage).Value;
-        Plugin.Logger.LogInfo("PERCENTAGE " + percentageStored);
+        
+        
+        if (!wasOnCappedMode && isUsesCapped)
+        {
+            if (data.HasData)
+            {
+                data.Value = Plugin.ConfigurationHandler.Uses;
+                Plugin.Logger.LogInfo("Switched to Capped Mode, changing the uses to: " + data.Value);
+            }
+        }
+        wasOnCappedMode = isUsesCapped;
         if (Plugin.ConfigurationHandler.IsUsesCapped)
         {
             if (!particles.smoke.isPlaying && percentageStored > 0)
@@ -126,7 +148,9 @@ public class DiscplacementComponent : MonoBehaviour
                 particles.smoke.Stop();
             }
         }
-        item.totalUses = _totalUses;
+        
+        
+        
         if (Plugin.ConfigurationHandler.IsBalanceCooldownEnabled)
         {
             Guid guid = item.data.guid;

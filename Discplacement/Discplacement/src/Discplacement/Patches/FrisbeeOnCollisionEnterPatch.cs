@@ -1,6 +1,7 @@
 using HarmonyLib;
 using Photon.Pun;
 using UnityEngine;
+using UnityEngine.Localization.SmartFormat.Utilities;
 
 namespace Discplacement.Patches;
 
@@ -55,7 +56,9 @@ public class FrisbeeOnCollisionEnterPatch
         
         if (Plugin.ConfigurationHandler.IsUsesCapped)
         {
+            Plugin.Logger.LogInfo("Trying to reduce uses");
             discplacementComponent.reduceUses.RunAction();
+            Plugin.Logger.LogInfo("Trying to reduce uses 2");
         }
         
         discplacementComponent.HasTeleported = true;

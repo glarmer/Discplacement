@@ -135,6 +135,10 @@ public class ConfigurationHandler
     }
     private void OnBalanceUsesChanged(object sender, System.EventArgs e)
     {
+        if (IsUsesCapped)
+        {
+            DiscplacementComponent._totalUses = Uses;
+        }
         Plugin.Logger.LogInfo($"Set the Uses to " + Uses + "!");
     }
     
