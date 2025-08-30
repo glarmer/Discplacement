@@ -1,12 +1,14 @@
-# PEAK Unlimited
+# Discplacement
 
-Have more than 4 climbing-enthusiast friends? Want to scale the PEAKs with all of them? Well have I got the solution for you... <br>
+Do you enjoy playing with the frisbee but are frequently left longing for something more? <br>
 
 ![peakunlimited2](https://glarmer.xyz/images/head.png)
 
-Introducing, "PEAK Unlimited", a mod for PEAK which raises the lobby max player count so that you may play with all of your friends, only the host needs to have this mod! 
+Introducing, "Discplacement", a mod for PEAK which turns the frisbee into a teleportation device, only the host needs to have this mod! 
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q7IFRUH)
+
+This mod was kindly commissioned by ______, the credit for the idea goes to them entirely :) If you'd like a mod commissioned, please contact me on discord @glarmer! 
 
 ## Features:
 - Raises the Max Player Count
@@ -15,19 +17,21 @@ Introducing, "PEAK Unlimited", a mod for PEAK which raises the lobby max player 
 - Allows the host to press "Next" for the whole lobby on the end screen
 - Has an easy to use configuration file
 
-
 ## Configuration
-- The extra marshmallows feature may be turned off in the configuration! (It is on by default)
-- Configuration can be found at: (steam directory)\PEAK\BepInEx\config\PeakUnlimited.cfg
-- The default max is 20, I would recommend lowering this value in the configuration if you know you won't be playing with this many people
-- Game may become unstable with lots of players
-- Can overwrite the number of marshmallows to a desired value.
+- The configuration menu can be opened with F3
+- Balance options include a cooldown mode and a max number of uses mode.
+- You can turn off the purple fire effect
+
+## Important
+- Do not complain to the game developers about bugs if you are using mods. Uninstall your mods first and if they persist then tell them!
+- Please search the PEAK Steam discussions and Discord if you face bugs as they are possibly caused by the game and not the mod. If you continue to experience issues then please reach out via the Github issues!
+- The mod will not function unless the host has it installed so it cannot be used as a cheat mod.
 
 ## Mods That Improve The Multiplayer Experience
 - [Voice Volume Saver](https://thunderstore.io/c/peak/p/glarmer/PEAK_Voice_Volume_Saver/) - Saves the volume of all your friends, no more adjusting their volume every time you load in!
 
 ## Manual Installation
-Only the host needs to install!
+Only the host needs to install this mod. 
 
 1.) Download Bepinex from [here](https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.3/BepInEx_win_x64_5.4.23.3.zip) <br>
 2.) Extract the contents of that zip into your game directory (default: C:\Program Files (x86)\Steam\steamapps\common\PEAK) resulting in a folder that has the following files: <br>
@@ -35,17 +39,13 @@ Only the host needs to install!
 3.) Start the game and close it again, this does the first time set up for Bepinex. <br>
 - Linux users: set the launch option `WINEDLLOVERRIDES="winhttp=n,b" %command%` before running the game.
   
-4.) Navigate to ...\PEAK\BepInEx\plugins, copy and paste the PeakUnlimited.dll from releases into this folder. <br>
+4.) Navigate to ...\PEAK\BepInEx\plugins, copy and paste the Discplacement.dll from releases into this folder. <br>
 5.) Run the game <br>
 
-## Important
-- Do not complain to the game developers about bugs if you are using mods. Uninstall your mods first and if they persist then tell them!
-- Please search the PEAK Steam discussions and Discord if you face bugs as they are possibly caused by the game and not the mod. If you continue to experience issues then please reach out via the Github issues!
-
 The only official pages for this mod are as follows:
-- Thunderstore: https://thunderstore.io/c/peak/p/glarmer/PEAK_Unlimited/
-- GitHub: https://github.com/glarmer/PEAK-Unlimited/
-- Nexus: https://www.nexusmods.com/peak/mods/37
+- Thunderstore: https://thunderstore.io/c/peak/p/glarmer/Discplacement/
+- GitHub: https://github.com/glarmer/Discplacement/
+- Nexus: TBC
 
 Any other site is not run by me and may contain malware. Please make sure to download from an official source.
 
@@ -56,6 +56,7 @@ Any other site is not run by me and may contain malware. Please make sure to dow
 
 ## My other mods
 
+- [PEAK Unlimited](https://thunderstore.io/c/peak/p/glarmer/PEAK_Unlimited/) - Allows you to play with 5+ players
 - [PEAK Unbound](https://thunderstore.io/c/peak/p/glarmer/PEAK_Unbound/) - Allows you to rebind your keys
 - [Voice Volume Saver](https://thunderstore.io/c/peak/p/glarmer/PEAK_Voice_Volume_Saver/) - Saves the volume of all your friends, no more adjusting their volume every time you load in!
 
