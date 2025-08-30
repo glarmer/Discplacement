@@ -22,11 +22,18 @@ This mod was kindly commissioned by ______, the credit for the idea goes to them
 - Balance options include a cooldown mode and a max number of uses mode.
 - You can turn off the purple fire effect
 - All options can be changed in realtime, and will take effect.
-- 
+  
 ## Important
 - Do not complain to the game developers about bugs if you are using mods. Uninstall your mods first and if they persist then tell them!
 - Please search the PEAK Steam discussions and Discord if you face bugs as they are possibly caused by the game and not the mod. If you continue to experience issues then please reach out via the Github issues!
 - The mod will not function unless the host has it installed so it cannot be used as a cheat mod.
+
+The only official pages for this mod are as follows:
+- Thunderstore: TBC
+- GitHub: https://github.com/glarmer/Discplacement/
+- Nexus: TBC
+
+Any other site is not run by me and may contain malware. Please make sure to download from an official source.
 
 ## My other mods
 
@@ -45,13 +52,6 @@ Only the host needs to install this mod.
   
 4.) Navigate to ...\PEAK\BepInEx\plugins, copy and paste the Discplacement.dll from releases into this folder. <br>
 5.) Run the game <br>
-
-The only official pages for this mod are as follows:
-- Thunderstore: https://thunderstore.io/c/peak/p/glarmer/Discplacement/
-- GitHub: https://github.com/glarmer/Discplacement/
-- Nexus: TBC
-
-Any other site is not run by me and may contain malware. Please make sure to download from an official source.
 
 ## Help
 - You can find your PEAK folder by **right clicking the game in your Steam library** then > **Manage** > **Browse Local Files**
