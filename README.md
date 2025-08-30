@@ -27,7 +27,10 @@ This mod was kindly commissioned by ______, the credit for the idea goes to them
 - Please search the PEAK Steam discussions and Discord if you face bugs as they are possibly caused by the game and not the mod. If you continue to experience issues then please reach out via the Github issues!
 - The mod will not function unless the host has it installed so it cannot be used as a cheat mod.
 
-## Mods That Improve The Multiplayer Experience
+## My other mods
+
+- [PEAK Unlimited](https://thunderstore.io/c/peak/p/glarmer/PEAK_Unlimited/) - Allows you to play with 5+ players
+- [PEAK Unbound](https://thunderstore.io/c/peak/p/glarmer/PEAK_Unbound/) - Allows you to rebind your keys
 - [Voice Volume Saver](https://thunderstore.io/c/peak/p/glarmer/PEAK_Voice_Volume_Saver/) - Saves the volume of all your friends, no more adjusting their volume every time you load in!
 
 ## Manual Installation
@@ -54,19 +57,9 @@ Any other site is not run by me and may contain malware. Please make sure to dow
 - If you have issues with auto install, try manually installing with the version of BepInEx that I link above.
 - Please report issues to [the mods github](https://github.com/glarmer/PEAK-Unlimited/), alternatively I will periodically check the [steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3501916945&tscn=1750268995)
 
-## My other mods
-
-- [PEAK Unlimited](https://thunderstore.io/c/peak/p/glarmer/PEAK_Unlimited/) - Allows you to play with 5+ players
-- [PEAK Unbound](https://thunderstore.io/c/peak/p/glarmer/PEAK_Unbound/) - Allows you to rebind your keys
-- [Voice Volume Saver](https://thunderstore.io/c/peak/p/glarmer/PEAK_Voice_Volume_Saver/) - Saves the volume of all your friends, no more adjusting their volume every time you load in!
-
-
 ## Media
 
-![peakunlimited1](https://glarmer.xyz/images/1mNyvy8.png)
+![discplacement](https://glarmer.xyz/images/discplacement/1.png)
 
-![peakunlimited1](https://glarmer.xyz/images/W5183qL.png)
-
-#### Yogscast Using PEAK Unlimited (Click for video!)
-[![Yogscast Playing PEAK with PEAK Unlimited](https://img.youtube.com/vi/AxY341m85WE/0.jpg)](https://www.youtube.com/watch?v=AxY341m85WE)
+![discplacement2](https://glarmer.xyz/images/discplacement/2.png)
 
