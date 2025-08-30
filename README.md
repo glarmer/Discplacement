@@ -11,17 +11,18 @@ Introducing, "Discplacement", a mod for PEAK which turns the frisbee into a tele
 This mod was kindly commissioned by ______, the credit for the idea goes to them entirely :) If you'd like a mod commissioned, please contact me on Discord with @glarmer! 
 
 ## Features:
-- Raises the Max Player Count
-- Adds extra marshmallows for all your friends! 
-- Fixes the end screen (non-hosts can optionally download to also have a fixed end screen)
-- Allows the host to press "Next" for the whole lobby on the end screen
-- Has an easy to use configuration file
+- Adds teleportation to the frisbee
+- Balance options such as cooldown or capping the number of uses.
+- Frisbee will still bonk your friends.
+- Magical purple fire to indicate the frisbee's teleportation is ready.
+- Has an easy to use configuration menu (F3)
 
 ## Configuration
 - The configuration menu can be opened with F3
 - Balance options include a cooldown mode and a max number of uses mode.
 - You can turn off the purple fire effect
-
+- All options can be changed in realtime, and will take effect.
+- 
 ## Important
 - Do not complain to the game developers about bugs if you are using mods. Uninstall your mods first and if they persist then tell them!
 - Please search the PEAK Steam discussions and Discord if you face bugs as they are possibly caused by the game and not the mod. If you continue to experience issues then please reach out via the Github issues!
