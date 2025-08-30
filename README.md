@@ -8,7 +8,7 @@ Introducing, "Discplacement", a mod for PEAK which turns the frisbee into a tele
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q7IFRUH)
 
-This mod was kindly commissioned by ______, the credit for the idea goes to them entirely :) If you'd like a mod commissioned, please contact me on Discord with @glarmer! 
+This mod was kindly commissioned by MercuryParadox, the credit for the idea goes to them entirely :) If you'd like a mod commissioned, please contact me on Discord with @glarmer! 
 
 ## Features:
 - Adds teleportation to the frisbee
