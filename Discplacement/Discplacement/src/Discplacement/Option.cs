@@ -1,7 +1,7 @@
 using System;
 using BepInEx.Configuration;
 
-namespace PEAKUnlimited.Patches;
+namespace Discplacement;
 
 public class Option
 {

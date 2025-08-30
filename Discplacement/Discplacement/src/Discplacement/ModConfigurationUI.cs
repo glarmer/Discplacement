@@ -1,9 +1,9 @@
 using System.Collections.Generic;
-using PEAKUnlimited.Patches;
+using Photon.Pun;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace PEAKUnlimited.Configuration;
+namespace Discplacement;
 
 public class ModConfigurationUI : MonoBehaviour
 {
@@ -22,7 +22,7 @@ public class ModConfigurationUI : MonoBehaviour
         private GUIStyle _rowStyle;
         private GUIStyle _hintStyle;
         
-        private string titleText = "PEAK Unlimited Settings";
+        private string titleText = "Discplacement Settings";
         private string hintText = "F2: Open/Close • Tab or ↑/↓:  Move • Enter/Click: Change • Scroll Wheel or ←/→ Arrows: Adjust Numerical Values • +/-: Scale Menu";
 
         private int RowHeight = 32;
@@ -141,7 +141,7 @@ public class ModConfigurationUI : MonoBehaviour
                 return;
             }
             
-            if (Plugin.ConfigurationHandler.MenuAction != null && Plugin.ConfigurationHandler.MenuAction.WasPerformedThisFrame() && (PlayerConnectionLogAwakePatch.isHost || GameHandler.GetService<RichPresenceService>().m_currentState == RichPresenceState.Status_MainMenu))
+            if (Plugin.ConfigurationHandler.MenuAction != null && Plugin.ConfigurationHandler.MenuAction.WasPerformedThisFrame() && (PhotonNetwork.IsMasterClient || GameHandler.GetService<RichPresenceService>().m_currentState == RichPresenceState.Status_MainMenu))
             {
                 _visible = !_visible;
                 if (_visible) OnOpened();
