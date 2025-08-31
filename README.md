@@ -8,24 +8,32 @@ Introducing, "Discplacement", a mod for PEAK which turns the frisbee into a tele
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/Q5Q7IFRUH)
 
-This mod was kindly commissioned by ______, the credit for the idea goes to them entirely :) If you'd like a mod commissioned, please contact me on Discord with @glarmer! 
+This mod was kindly commissioned by MercuryParadox, the credit for the idea goes to them entirely :) If you'd like a mod commissioned, please contact me on Discord with @glarmer! 
 
 ## Features:
-- Raises the Max Player Count
-- Adds extra marshmallows for all your friends! 
-- Fixes the end screen (non-hosts can optionally download to also have a fixed end screen)
-- Allows the host to press "Next" for the whole lobby on the end screen
-- Has an easy to use configuration file
+- Adds teleportation to the frisbee
+- Balance options such as cooldown or capping the number of uses.
+- Frisbee will still bonk your friends.
+- Magical purple fire to indicate the frisbee's teleportation is ready.
+- Has an easy to use configuration menu (F3)
 
 ## Configuration
 - The configuration menu can be opened with F3
 - Balance options include a cooldown mode and a max number of uses mode.
 - You can turn off the purple fire effect
-
+- All options can be changed in realtime, and will take effect.
+  
 ## Important
 - Do not complain to the game developers about bugs if you are using mods. Uninstall your mods first and if they persist then tell them!
 - Please search the PEAK Steam discussions and Discord if you face bugs as they are possibly caused by the game and not the mod. If you continue to experience issues then please reach out via the Github issues!
 - The mod will not function unless the host has it installed so it cannot be used as a cheat mod.
+
+The only official pages for this mod are as follows:
+- Thunderstore: TBC
+- GitHub: https://github.com/glarmer/Discplacement/
+- Nexus: TBC
+
+Any other site is not run by me and may contain malware. Please make sure to download from an official source.
 
 ## My other mods
 
@@ -44,13 +52,6 @@ Only the host needs to install this mod.
   
 4.) Navigate to ...\PEAK\BepInEx\plugins, copy and paste the Discplacement.dll from releases into this folder. <br>
 5.) Run the game <br>
-
-The only official pages for this mod are as follows:
-- Thunderstore: https://thunderstore.io/c/peak/p/glarmer/Discplacement/
-- GitHub: https://github.com/glarmer/Discplacement/
-- Nexus: TBC
-
-Any other site is not run by me and may contain malware. Please make sure to download from an official source.
 
 ## Help
 - You can find your PEAK folder by **right clicking the game in your Steam library** then > **Manage** > **Browse Local Files**
