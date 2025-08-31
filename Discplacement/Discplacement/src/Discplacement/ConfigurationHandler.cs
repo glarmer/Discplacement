@@ -103,7 +103,7 @@ public class ConfigurationHandler
         (
             "General",
             "Config Menu Key",
-            "<Keyboard>/f"3,
+            "<Keyboard>/f3",
             "Control path for opening the mod configuration menu (e.g. <Keyboard>/f3, <Keyboard>/space, <Keyboard>/escape)"
         );
         Plugin.Logger.LogInfo("ConfigurationHandler: Config Menu Key: " + ConfigMenuKey.Value);
