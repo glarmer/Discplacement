@@ -45,8 +45,6 @@ public class FrisbeeOnCollisionEnterPatch
         
         Vector3 direction = (position - contactPoint).normalized;
         
-        character.view.RPC("WarpPlayerRPC", RpcTarget.All, position + direction*0.7f, true);
-
         if (Plugin.ConfigurationHandler.IsBalanceCooldownEnabled)
         {
             Plugin.Logger.LogInfo("Trying to activate cooldown");
@@ -65,7 +63,9 @@ public class FrisbeeOnCollisionEnterPatch
 
         if (Plugin.ConfigurationHandler.IsFrisbeeReturnEnabled)
         {
+            character.refs.items.lastEquippedSlotTime = -0.25f;
             __instance.item.Interact(character);
         }
+        character.view.RPC("WarpPlayerRPC", RpcTarget.All, position + direction*0.7f, true);
     }
 }
